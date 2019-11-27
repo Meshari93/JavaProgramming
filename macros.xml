@@ -1,0 +1,7 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="23232">
+      <action id="$SelectAll" />
+    </macro>
+  </component>
+</application>
