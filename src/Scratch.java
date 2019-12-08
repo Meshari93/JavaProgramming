@@ -5,5 +5,6 @@ public class Scratch  { // Class name
         ComputeExpression  computeEpression = new ComputeExpression();
         WelcomeWithThreeMessages welcomeWithThreeMessages = new WelcomeWithThreeMessages();
         ShowSyntaxErrors showSyntaxErrors = new ShowSyntaxErrors();
+        ShowRuntimeErrors showRuntimeErrors = new ShowRuntimeErrors();
     }
 }
