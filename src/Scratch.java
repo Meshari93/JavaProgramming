@@ -3,5 +3,6 @@ public class Scratch  { // Class name
         System.out.println("Scratch Main :-");
         Welcome welcome = new Welcome();
         ComputeExpression  computeEpression = new ComputeExpression();
+        WelcomeWithThreeMessages welcomeWithThreeMessages = new WelcomeWithThreeMessages();
     }
 }
