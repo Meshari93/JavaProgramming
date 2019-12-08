@@ -6,5 +6,7 @@ public class Scratch  { // Class name
         WelcomeWithThreeMessages welcomeWithThreeMessages = new WelcomeWithThreeMessages();
         ShowSyntaxErrors showSyntaxErrors = new ShowSyntaxErrors();
         ShowRuntimeErrors showRuntimeErrors = new ShowRuntimeErrors();
+        ShowLogicErrors showLogicErrors = new ShowLogicErrors();
+
     }
 }
