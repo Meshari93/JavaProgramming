@@ -7,8 +7,10 @@ public class Chapter_2 {
     public  Chapter_2() {
 
         ChapterTowMethod chapterTowMethod = new ChapterTowMethod();
-        chapterTowMethod.computeArea();
-        chapterTowMethod.ComputeAreaWithConsoleInput();
+//        chapterTowMethod.computeArea();
+//        chapterTowMethod.ComputeAreaWithConsoleInput();
+//        chapterTowMethod.ComputeAverage();
+        chapterTowMethod.ComputeAreaWithConstant();
 
 
     }

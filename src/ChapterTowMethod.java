@@ -41,4 +41,49 @@ public class ChapterTowMethod {
         System.out.println("The area for the circle of radius " + radius + " is " + area);
     }
 
+    /**
+     * Listing 2.3 Compute Average
+     */
+
+    public void ComputeAverage() {
+
+        // Create a Scanner object
+        Scanner input = new Scanner(System.in);
+
+        //Prompt the user to enter three number
+        System.out.println("Enter three numbers: ");
+        double number1 = input.nextDouble();
+        double number2 = input.nextDouble();
+        double number3 = input.nextDouble();
+
+        // Compute average
+        double average = (number1 + number2 + number3 ) / 3;
+
+        //Desplay results
+        System.out.println("The average of " + number1 + " " +  number2 + " " + number3 + " " + " is  " + average );
+
+    }
+
+    /**
+     * Listing 2.4 ComputeAreaWithConstant
+     */
+
+    public  void ComputeAreaWithConstant () {
+        final double PI = 3.14159;
+
+        // Create a Scanner object
+        Scanner input = new Scanner(System.in);
+
+        // Prompt the user to enter a radius
+        System.out.println("Enter a number for radius: ");
+        double radius = input.nextDouble();
+
+        //Compute area
+        double area = radius * radius * PI;
+
+        //Display result
+        System.out.println("The area for the circle of radius " + radius + " is " + area) ;
+
+    }
+
 }
