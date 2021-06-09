@@ -2,16 +2,17 @@
   <component name="SonarLintGlobalSettings">
     <rules>
       <Rule active="false" key="java:S1135" />
-      <Rule active="false" key="java:S2737" />
       <Rule active="false" key="squid:S1488" />
+      <Rule active="false" key="java:S2737" />
+      <Rule active="false" key="java:S1220" />
       <Rule active="false" key="java:S4684" />
       <Rule active="false" key="java:S1659" />
       <Rule active="false" key="squid:S1854" />
       <Rule active="false" key="java:S5411" />
       <Rule active="false" key="squid:S1192" />
-      <Rule active="false" key="java:S2589" />
       <Rule active="false" key="squid:S2293" />
       <Rule active="false" key="squid:CallToDeprecatedMethod" />
+      <Rule active="false" key="java:S2589" />
     </rules>
   </component>
 </application>
